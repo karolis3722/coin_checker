@@ -1,0 +1,31 @@
+{
+  "name": "coinchecker",
+  "version": "1.0.0",
+  "description": "Check your cryptos",
+  "main": "index.js",
+  "dependencies": {
+    "@types/react": "^17.0.35",
+    "@types/react-dom": "^17.0.11",
+    "react": "^17.0.2",
+    "react-dom": "^17.0.2",
+    "ts-loader": "^9.2.6",
+    "typescript": "^4.5.2",
+    "webpack": "^5.64.2",
+    "webpack-cli": "^4.9.1"
+  },
+  "devDependencies": {},
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "magic": "webpack"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/karolis3722/coinChecker.git"
+  },
+  "author": "ksiaulys",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/karolis3722/coinChecker/issues"
+  },
+  "homepage": "https://github.com/karolis3722/coinChecker#readme"
+}
