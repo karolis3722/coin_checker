@@ -4,8 +4,8 @@ const mainList = {
     uri: 'https://pro-api.coinmarketcap.com/v1/cryptocurrency/listings/latest',
     qs: {
       'start': '1',
-      'limit': '15',
-      'convert': 'USD'
+      'limit': '100',
+      'convert': 'EUR'
     }
   };
 
