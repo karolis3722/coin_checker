@@ -15,17 +15,18 @@ constructor (props: RowData){
 }
 
 render() {
-  return (  
+  let changeIn:number = this.props.percent_change_24h;
+  return (
     <>
         <Table.Row>
             <Table.Cell>
                 <Label>{this.props.name}</Label>
             </Table.Cell>
             <Table.Cell>
-                <Label>{this.props.value}</Label>
+                <Label>{this.props.value.toFixed(7)}</Label>
             </Table.Cell>
             <Table.Cell>
-                <Label>{this.props.percent_change_24h}</Label>
+                <Label className={changeIn > 0 ? 'positive' : 'negative'}>{changeIn.toFixed(3)}</Label>
             </Table.Cell>
         </Table.Row>
     </>
